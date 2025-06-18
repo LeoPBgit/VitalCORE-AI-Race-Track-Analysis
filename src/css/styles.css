@@ -123,6 +123,8 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
+    position: relative;
+    overflow: hidden;
 }
 
 .hero-container {
@@ -133,6 +135,8 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     align-items: center;
+    position: relative;
+    overflow: hidden;
 }
 
 .hero-title {
@@ -237,6 +241,10 @@ body {
     overflow: hidden;
     transform: perspective(1000px) rotateY(-5deg) rotateX(5deg);
     transition: transform 0.3s ease;
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+    width: 100%;
 }
 
 .dashboard-preview:hover {
