@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitalCORE - AI-Driven Race Track Analysis</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="src/assets/Logo/Logo.svg" alt="VitalCORE Logo" class="logo-svg">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#analytics" class="nav-link">Analytics</a></li>
+                <li><a href="#team" class="nav-link">Team Management</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#" class="nav-link btn-primary">Get Started</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    AI-Driven Race Team
+                    <span class="highlight">Management</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Transform your racing performance with intelligent telemetry analysis, 
+                    real-time insights, and AI-powered recommendations for optimal track performance.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Start Free Trial</button>
+                    <button class="btn btn-secondary">Watch Demo</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">99.9%</span>
+                        <span class="stat-label">Uptime</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">&lt;100ms</span>
+                        <span class="stat-label">Latency</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Racing Teams</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="dashboard-preview">
+                    <div class="dashboard-header">
+                        <div class="dashboard-tabs">
+                            <span class="tab active">Live Telemetry</span>
+                            <span class="tab">Performance</span>
+                            <span class="tab">Analytics</span>
+                        </div>
+                    </div>
+                    <div class="dashboard-content">
+                        <div class="telemetry-grid">
+                            <div class="telemetry-card">
+                                <h4>Speed</h4>
+                                <div class="metric">
+                                    <span class="value">247</span>
+                                    <span class="unit">km/h</span>
+                                </div>
+                                <div class="trend up">↗ +12 km/h</div>
+                            </div>
+                            <div class="telemetry-card">
+                                <h4>Lap Time</h4>
+                                <div class="metric">
+                                    <span class="value">1:23.456</span>
+                                </div>
+                                <div class="trend down">↘ -0.234s</div>
+                            </div>
+                            <div class="telemetry-card">
+                                <h4>Tire Temp</h4>
+                                <div class="metric">
+                                    <span class="value">98°C</span>
+                                </div>
+                                <div class="trend neutral">→ Optimal</div>
+                            </div>
+                        </div>
+                        <div class="chart-placeholder">
+                            <div class="chart-line"></div>
+                            <div class="chart-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Intelligent Race Management</h2>
+                <p>Comprehensive AI-powered tools for every aspect of race team operations</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>Real-Time Telemetry</h3>
+                    <p>Monitor live vehicle data with sub-100ms latency. Track speed, acceleration, braking, and engine parameters in real-time.</p>
+                    <ul class="feature-list">
+                        <li>Live data streaming</li>
+                        <li>Multi-sensor integration</li>
+                        <li>Instant alerts</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI Performance Analysis</h3>
+                    <p>Advanced machine learning algorithms analyze patterns and provide actionable insights for performance optimization.</p>
+                    <ul class="feature-list">
+                        <li>Predictive analytics</li>
+                        <li>Setup recommendations</li>
+                        <li>Pattern recognition</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Safety Monitoring</h3>
+                    <p>Proactive safety systems with early warning detection and automated incident response protocols.</p>
+                    <ul class="feature-list">
+                        <li>Hazard detection</li>
+                        <li>Risk assessment</li>
+                        <li>Emergency protocols</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Team Collaboration</h3>
+                    <p>Unified platform for engineers, drivers, and managers with role-based access and real-time communication.</p>
+                    <ul class="feature-list">
+                        <li>Role management</li>
+                        <li>Real-time chat</li>
+                        <li>Shared insights</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Performance Analytics</h3>
+                    <p>Comprehensive data visualization and historical analysis tools for strategic decision making.</p>
+                    <ul class="feature-list">
+                        <li>Custom dashboards</li>
+                        <li>Historical trends</li>
+                        <li>Comparative analysis</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <h3>Track Optimization</h3>
+                    <p>AI-generated optimal racing lines and setup recommendations based on track conditions and vehicle characteristics.</p>
+                    <ul class="feature-list">
+                        <li>Racing line analysis</li>
+                        <li>Setup optimization</li>
+                        <li>Weather adaptation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Analytics Dashboard Preview -->
+    <section id="analytics" class="analytics-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2>Advanced Analytics Dashboard</h2>
+                <p>Real-time insights and AI-powered recommendations at your fingertips</p>
+            </div>
+            <div class="dashboard-showcase">
+                <div class="dashboard-sidebar">
+                    <div class="sidebar-item active">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <span>Live Telemetry</span>
+                    </div>
+                    <div class="sidebar-item">
+                        <i class="fas fa-chart-bar"></i>
+                        <span>Performance</span>
+                    </div>
+                    <div class="sidebar-item">
+                        <i class="fas fa-users"></i>
+                        <span>Team</span>
+                    </div>
+                    <div class="sidebar-item">
+                        <i class="fas fa-cog"></i>
+                        <span>Settings</span>
+                    </div>
+                </div>
+                <div class="dashboard-main">
+                    <div class="dashboard-metrics">
+                        <div class="metric-card">
+                            <h4>Current Lap</h4>
+                            <div class="metric-value">1:23.456</div>
+                            <div class="metric-change positive">-0.234s from best</div>
+                        </div>
+                        <div class="metric-card">
+                            <h4>Position</h4>
+                            <div class="metric-value">P3</div>
+                            <div class="metric-change neutral">Maintaining</div>
+                        </div>
+                        <div class="metric-card">
+                            <h4>Fuel Level</h4>
+                            <div class="metric-value">67%</div>
+                            <div class="metric-change negative">12 laps remaining</div>
+                        </div>
+                        <div class="metric-card">
+                            <h4>Tire Wear</h4>
+                            <div class="metric-value">23%</div>
+                            <div class="metric-change positive">Good condition</div>
+                        </div>
+                    </div>
+                    <div class="dashboard-charts">
+                        <div class="chart-container">
+                            <h4>Speed vs Time</h4>
+                            <div class="chart-area">
+                                <div class="chart-grid"></div>
+                                <div class="chart-data"></div>
+                            </div>
+                        </div>
+                        <div class="ai-recommendations">
+                            <h4>AI Recommendations</h4>
+                            <div class="recommendation">
+                                <i class="fas fa-lightbulb"></i>
+                                <span>Brake 50m later at Turn 3 for 0.1s improvement</span>
+                            </div>
+                            <div class="recommendation">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <span>Tire degradation detected - consider pit strategy</span>
+                            </div>
+                            <div class="recommendation">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Optimal racing line maintained in Sector 2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Management Section -->
+    <section id="team" class="team-management">
+        <div class="container">
+            <div class="section-header">
+                <h2>Unified Team Management</h2>
+                <p>Streamline communication and coordination across your entire racing operation</p>
+            </div>
+            <div class="team-features">
+                <div class="team-feature">
+                    <div class="team-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Race Engineers</h3>
+                    <p>Advanced telemetry analysis tools with AI-powered setup recommendations and real-time performance monitoring.</p>
+                    <div class="feature-highlights">
+                        <span>Data Analysis</span>
+                        <span>Setup Optimization</span>
+                        <span>Performance Tracking</span>
+                    </div>
+                </div>
+                <div class="team-feature">
+                    <div class="team-icon">
+                        <i class="fas fa-helmet-safety"></i>
+                    </div>
+                    <h3>Drivers</h3>
+                    <p>Personalized feedback and coaching recommendations to improve lap times and racing consistency.</p>
+                    <div class="feature-highlights">
+                        <span>Performance Feedback</span>
+                        <span>Racing Line Analysis</span>
+                        <span>Improvement Tips</span>
+                    </div>
+                </div>
+                <div class="team-feature">
+                    <div class="team-icon">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                    <h3>Team Managers</h3>
+                    <p>Strategic insights and comprehensive reporting for informed decision making and resource allocation.</p>
+                    <div class="feature-highlights">
+                        <span>Strategic Analytics</span>
+                        <span>Resource Planning</span>
+                        <span>Performance Reports</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Racing Performance?</h2>
+                <p>Join leading racing teams using VitalCORE to gain competitive advantages through AI-driven insights.</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary">Start Free Trial</button>
+                    <button class="btn btn-outline">Schedule Demo</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="src/assets/Logo/Logo white.svg" alt="VitalCORE Logo" class="footer-logo-svg">
+                    </div>
+                    <p>AI-driven race track analysis and team management platform for the next generation of motorsports.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Analytics</a></li>
+                        <li><a href="#">Team Management</a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">API Reference</a></li>
+                        <li><a href="#">Status</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 VitalCORE. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>
